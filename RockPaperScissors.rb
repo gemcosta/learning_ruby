@@ -10,7 +10,7 @@ class RockPaperScissors
 	end
 	
 	def	weapon_player
-		sleep(0.5) 
+		sleep(1.0) 
 		@weapon_player =	gets.chomp.downcase
 		if !(@weapon_player == "rock" || @weapon_player == "paper" || @weapon_player == "scissors")
 			puts "That's not rock, paper or scissors! Try again..."
